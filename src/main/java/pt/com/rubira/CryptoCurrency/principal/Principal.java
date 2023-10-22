@@ -37,7 +37,7 @@ public class Principal {
                         }
                     }catch (IOException e) {
                         e.printStackTrace();
-                        System.out.println("Erro ao buscar informações da criptomoeda " + sigla);
+                        System.out.println("Erro ao buscar informações da criptomoeda " + sigla ": está sigla nao consta em nossos registros.");
                     }
 
                     break;
